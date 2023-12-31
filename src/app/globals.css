@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=Fraunces:,regular,500,700,800,900);
+
+.h1,
+.h2,
+.h3,
+.h4 {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+/* .fraunces {
+  font-family: 'Fraunces', serif;
+}
+*/
+.h1 {
+  line-height: 72px;
+}
+
+.nav-link {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Inter', sans-serif;
+}
+
+.hero {
+  background-image: url('/assets/home/desktop/image-hero-coffeepress.jpg');
+  /* object-fit: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
+}
