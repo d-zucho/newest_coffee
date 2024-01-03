@@ -8,7 +8,10 @@ const Header = () => {
         <Link className='nav-link text-my_gray hover:text-my_dblue' href='/'>
           Home
         </Link>
-        <Link className='nav-link text-my_gray hover:text-my_dblue' href='/'>
+        <Link
+          className='nav-link text-my_gray hover:text-my_dblue'
+          href='/sbout '
+        >
           About Us
         </Link>
         <Link className='nav-link text-my_gray hover:text-my_dblue' href='/'>

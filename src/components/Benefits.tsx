@@ -7,7 +7,7 @@ interface BenefitProps {
 
 const Benefits = ({ benefitsData }: BenefitProps): JSX.Element => {
   return (
-    <section className='bg-my_dblue justify-around relative pt-24'>
+    <section className='bg-my_dblue justify-around relative pt-24 mb-[250px]'>
       <div className='text-center w-2/5 mx-auto'>
         <h1 className='text-[#fff] text-my_title2'>Why choose us?</h1>
         <p className='text-my_bg mt-12'>

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Fraunces } from 'next/font/google'
 import './globals.css'
+import Footer from '@/sections/Footer'
+import Header from '@/components/Header'
 
 const fraunces = Fraunces({ subsets: ['latin'] })
 
@@ -16,7 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={fraunces.className}>{children}</body>
+      <body className={fraunces.className}>
+        <div className='container mx-auto'>
+          <Header />
+        </div>
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
