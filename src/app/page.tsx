@@ -1,9 +1,10 @@
-import Benefits from '@/components/Benefits'
+import Benefits from '@/sections/Benefits'
 import { coffeeData } from '../coffeedata'
 import CoffeeCard from '@/components/CoffeeCard'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import { benefitData } from '@/data/benefitData'
+import About from './about/page'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
         <CoffeeCard coffeeData={coffeeData} />
         <Benefits benefitsData={benefitData} />
+        <About />
       </div>
     </div>
   )

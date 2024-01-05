@@ -3,7 +3,7 @@ import Logo from '/assets/logo.svg'
 
 const Footer = () => {
   return (
-    <footer className='mt-[250px] w-full bg-my_dblue py-24'>
+    <footer className='mt-[250px] w-full bg-my_dblue py-24 absolute bottom-0'>
       <div className='container mx-auto text-[#fff] flex justify-between items-center'>
         <img
           src={'/assets/shared/desktop/logo.svg'}

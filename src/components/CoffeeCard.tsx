@@ -14,7 +14,7 @@ const CoffeeCard = ({ coffeeData }: Iprops): JSX.Element => (
             src={coffee.imgURL}
             alt={coffee.name}
             width={250}
-            height={200}
+            height={250}
             className='mx-auto'
           />
           <div className=''>
